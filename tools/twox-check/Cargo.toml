@@ -1,0 +1,13 @@
+# Prints the same lines as ../vectors.c, from the twox-hash crate (a Rust
+# implementation), for generate-vectors.mjs to compare. Point TWOX_HASH_PATH
+# at a checkout, or edit the path below.
+[package]
+name = "twox-check"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+twox-hash = { path = "../../../../twox-hash", default-features = false, features = ["xxhash32", "xxhash64", "xxhash3_64", "xxhash3_128"] }
+
+[workspace]

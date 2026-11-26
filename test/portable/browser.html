@@ -1,0 +1,19 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>pure-xxhash portable suite</title>
+<pre id="log">running…</pre>
+<script type="module">
+  // Runs the suite on the page, then again inside a module web worker.
+  import { runSummary } from './summary.mjs';
+
+  const inWorker = () => new Promise((resolve) => {
+    const worker = new Worker(new URL('./web-worker.mjs', import.meta.url), { type: 'module' });
+    worker.onmessage = (event) => { resolve(event.data); worker.terminate(); };
+    worker.onerror = (event) => { resolve({ passed: 0, failed: 1, results: [{ name: 'worker startup', ok: false, error: String(event.message) }] }); worker.terminate(); };
+  });
+
+  const page = await runSummary();
+  const worker = await inWorker();
+  window.portableResults = { page, worker };
+  document.getElementById('log').textContent = JSON.stringify(window.portableResults, null, 2);
+</script>

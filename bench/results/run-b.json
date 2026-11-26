@@ -1,0 +1,3140 @@
+{
+ "node": "v22.19.0",
+ "platform": "darwin/arm64",
+ "cpu": "Apple M4",
+ "date": "2026-11-26T06:46:41.845Z",
+ "loadAverage": {
+  "start": [
+   2.1015625,
+   2.220703125,
+   2.3671875
+  ],
+  "end": [
+   2.82958984375,
+   2.45166015625,
+   2.4287109375
+  ]
+ },
+ "results": [
+  {
+   "algorithm": "xxh32",
+   "size": 16,
+   "mode": "reused",
+   "chunk": 0,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 8.841665534958464
+    },
+    {
+     "library": "xxhash-wasm",
+     "ns": 31.54645986433012
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 119.0444172284429
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 60.88127301016844
+    },
+    {
+     "library": "xxhashjs",
+     "ns": 266.3063304149617
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh32",
+   "size": 64,
+   "mode": "reused",
+   "chunk": 0,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 38.04049657951114
+    },
+    {
+     "library": "xxhash-wasm",
+     "ns": 32.198523275222605
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 123.18002861956163
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 68.75312802490335
+    },
+    {
+     "library": "xxhashjs",
+     "ns": 312.42037619904136
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh32",
+   "size": 256,
+   "mode": "reused",
+   "chunk": 0,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 41.280499957069644
+    },
+    {
+     "library": "xxhash-wasm",
+     "ns": 44.971319392483004
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 136.21503306964803
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 95.39290674603185
+    },
+    {
+     "library": "xxhashjs",
+     "ns": 495.8455867791519
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh32",
+   "size": 4096,
+   "mode": "reused",
+   "chunk": 0,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 395.87209827083853
+    },
+    {
+     "library": "xxhash-wasm",
+     "ns": 406.1806155770729
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 486.99824197444224
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 659.9948323653653
+    },
+    {
+     "library": "xxhashjs",
+     "ns": 4448.726645907479
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh32",
+   "size": 65536,
+   "mode": "reused",
+   "chunk": 0,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 5607.337108893127
+    },
+    {
+     "library": "xxhash-wasm",
+     "ns": 6376.4320601925565
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 6162.825352807054
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 9501.100418012524
+    },
+    {
+     "library": "xxhashjs",
+     "ns": 71449.0178571428
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh32",
+   "size": 1048576,
+   "mode": "reused",
+   "chunk": 0,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 90486.58770343577
+    },
+    {
+     "library": "xxhash-wasm",
+     "ns": 104609.78870292904
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 103403.19318181831
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 151475.6686838127
+    },
+    {
+     "library": "xxhashjs",
+     "ns": 1186018.6235294084
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh32",
+   "size": 16,
+   "mode": "fresh",
+   "chunk": 0,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 37.49810649236897
+    },
+    {
+     "library": "xxhash-wasm",
+     "ns": 54.02569935434247
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 486.5644652864257
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 482.7725115740741
+    },
+    {
+     "library": "xxhashjs",
+     "ns": 555.7944134512798
+    },
+    {
+     "library": "copy only",
+     "ns": 33.222131009206436
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh32",
+   "size": 64,
+   "mode": "fresh",
+   "chunk": 0,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 54.47639472353923
+    },
+    {
+     "library": "xxhash-wasm",
+     "ns": 59.04083055482086
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 483.47941483601375
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 467.5396972072889
+    },
+    {
+     "library": "xxhashjs",
+     "ns": 586.603184735756
+    },
+    {
+     "library": "copy only",
+     "ns": 31.726556155080033
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh32",
+   "size": 256,
+   "mode": "fresh",
+   "chunk": 0,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 493.33442826704544
+    },
+    {
+     "library": "xxhash-wasm",
+     "ns": 458.1562774443793
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 495.1064774525314
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 446.94308035714414
+    },
+    {
+     "library": "xxhashjs",
+     "ns": 775.4613482762925
+    },
+    {
+     "library": "copy only",
+     "ns": 491.338121270413
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh32",
+   "size": 1048576,
+   "mode": "stream",
+   "chunk": 64,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 1624012.096774194
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 3381184.7333333315
+    },
+    {
+     "library": "xxhash-wasm",
+     "ns": 1391913.7777777766
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 1427985.338028168
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh32",
+   "size": 1048576,
+   "mode": "stream",
+   "chunk": 4096,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 121925.64920828256
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 225715.74774774755
+    },
+    {
+     "library": "xxhash-wasm",
+     "ns": 125783.08291457272
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 118745.55160142345
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh32",
+   "size": 1048576,
+   "mode": "stream",
+   "chunk": 65536,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 90465.0018083183
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 174558.46422338558
+    },
+    {
+     "library": "xxhash-wasm",
+     "ns": 110223.4306167399
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 103375.98966942159
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh64",
+   "size": 16,
+   "mode": "reused",
+   "chunk": 0,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 40.34375726143757
+    },
+    {
+     "library": "pure-xxhash (pair)",
+     "ns": 44.62372290524337
+    },
+    {
+     "library": "xxhash-wasm",
+     "ns": 37.93014643411982
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 132.39112006523243
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 70.93969039404405
+    },
+    {
+     "library": "xxhashjs",
+     "ns": 1755.6688796244391
+    },
+    {
+     "library": "xxh3-ts",
+     "ns": 329.7204641350222
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh64",
+   "size": 64,
+   "mode": "reused",
+   "chunk": 0,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 82.31284972745948
+    },
+    {
+     "library": "pure-xxhash (pair)",
+     "ns": 84.37067612715975
+    },
+    {
+     "library": "xxhash-wasm",
+     "ns": 42.42576173571901
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 127.947268821604
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 75.6742291928999
+    },
+    {
+     "library": "xxhashjs",
+     "ns": 3795.2631978155327
+    },
+    {
+     "library": "xxh3-ts",
+     "ns": 1300.1880580357167
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh64",
+   "size": 256,
+   "mode": "reused",
+   "chunk": 0,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 147.50339455926766
+    },
+    {
+     "library": "pure-xxhash (pair)",
+     "ns": 153.23542279411757
+    },
+    {
+     "library": "xxhash-wasm",
+     "ns": 55.833568739281084
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 132.83668527924232
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 77.42583389070552
+    },
+    {
+     "library": "xxhashjs",
+     "ns": 9136.283521075575
+    },
+    {
+     "library": "xxh3-ts",
+     "ns": 3206.2401063012294
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh64",
+   "size": 4096,
+   "mode": "reused",
+   "chunk": 0,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 1368.4034998905436
+    },
+    {
+     "library": "pure-xxhash (pair)",
+     "ns": 1361.3400342987813
+    },
+    {
+     "library": "xxhash-wasm",
+     "ns": 249.67803000039902
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 327.1180620976605
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 233.98697165961556
+    },
+    {
+     "library": "xxhashjs",
+     "ns": 117438.84953703693
+    },
+    {
+     "library": "xxh3-ts",
+     "ns": 40050.10947452237
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh64",
+   "size": 65536,
+   "mode": "reused",
+   "chunk": 0,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 19461.730492313687
+    },
+    {
+     "library": "pure-xxhash (pair)",
+     "ns": 19448.91754181251
+    },
+    {
+     "library": "xxhash-wasm",
+     "ns": 4009.8356389590617
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 3500.507560907311
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 2744.053508218313
+    },
+    {
+     "library": "xxhashjs",
+     "ns": 1805029.7678571416
+    },
+    {
+     "library": "xxh3-ts",
+     "ns": 639989.1210191068
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh64",
+   "size": 1048576,
+   "mode": "reused",
+   "chunk": 0,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 315363.9937106918
+    },
+    {
+     "library": "pure-xxhash (pair)",
+     "ns": 317515.2126984127
+    },
+    {
+     "library": "xxhash-wasm",
+     "ns": 58013.41357308591
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 58887.041200706226
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 42443.908358082175
+    },
+    {
+     "library": "xxhashjs",
+     "ns": 28367666.7499999
+    },
+    {
+     "library": "xxh3-ts",
+     "ns": 10195445.899999958
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh64",
+   "size": 16,
+   "mode": "fresh",
+   "chunk": 0,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 75.31721807523616
+    },
+    {
+     "library": "pure-xxhash (pair)",
+     "ns": 78.26543097836961
+    },
+    {
+     "library": "xxhash-wasm",
+     "ns": 65.61188447367323
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 468.5967991232008
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 480.03778757668704
+    },
+    {
+     "library": "xxhashjs",
+     "ns": 1963.6758008793952
+    },
+    {
+     "library": "xxh3-ts",
+     "ns": 621.1438678075384
+    },
+    {
+     "library": "copy only",
+     "ns": 33.66718096882272
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh64",
+   "size": 64,
+   "mode": "fresh",
+   "chunk": 0,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 119.64740022013774
+    },
+    {
+     "library": "pure-xxhash (pair)",
+     "ns": 109.43773306197481
+    },
+    {
+     "library": "xxhash-wasm",
+     "ns": 71.51108165156495
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 450.4437644009218
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 468.59621365407804
+    },
+    {
+     "library": "xxhashjs",
+     "ns": 3980.0166508838347
+    },
+    {
+     "library": "xxh3-ts",
+     "ns": 1531.0675354004015
+    },
+    {
+     "library": "copy only",
+     "ns": 30.968466027330784
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh64",
+   "size": 256,
+   "mode": "fresh",
+   "chunk": 0,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 470.4848069411057
+    },
+    {
+     "library": "pure-xxhash (pair)",
+     "ns": 486.2132812500007
+    },
+    {
+     "library": "xxhash-wasm",
+     "ns": 487.8080085440064
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 497.56045741889193
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 454.8111494106522
+    },
+    {
+     "library": "xxhashjs",
+     "ns": 9387.439546130923
+    },
+    {
+     "library": "xxh3-ts",
+     "ns": 3561.983593749994
+    },
+    {
+     "library": "copy only",
+     "ns": 425.70757531963915
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh64",
+   "size": 1048576,
+   "mode": "stream",
+   "chunk": 64,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 1953287.6730769235
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 3442747.2000000007
+    },
+    {
+     "library": "xxhash-wasm",
+     "ns": 1356199.3243243257
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 1466892.507246379
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh64",
+   "size": 1048576,
+   "mode": "stream",
+   "chunk": 4096,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 357590.6249999998
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 93667.1348314606
+    },
+    {
+     "library": "xxhash-wasm",
+     "ns": 79762.92583732064
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 76697.6288343558
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh64",
+   "size": 1048576,
+   "mode": "stream",
+   "chunk": 65536,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 318390.2126984128
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 46654.36473880604
+    },
+    {
+     "library": "xxhash-wasm",
+     "ns": 67640.41041244076
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 60216.435881998725
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh3",
+   "size": 16,
+   "mode": "reused",
+   "chunk": 0,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 42.631683639364844
+    },
+    {
+     "library": "pure-xxhash (pair)",
+     "ns": 56.93087554193383
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 129.96614193488
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 73.10979830502538
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh3",
+   "size": 64,
+   "mode": "reused",
+   "chunk": 0,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 78.15514899854969
+    },
+    {
+     "library": "pure-xxhash (pair)",
+     "ns": 83.99084874220584
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 132.02300200591228
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 102.40616603866317
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh3",
+   "size": 256,
+   "mode": "reused",
+   "chunk": 0,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 193.5239076430165
+    },
+    {
+     "library": "pure-xxhash (pair)",
+     "ns": 201.5481784263794
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 155.60680194643544
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 143.02106829932282
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh3",
+   "size": 4096,
+   "mode": "reused",
+   "chunk": 0,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 950.2223320158104
+    },
+    {
+     "library": "pure-xxhash (pair)",
+     "ns": 950.6689638783278
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 434.52505387931035
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 1197.7734599540167
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh3",
+   "size": 65536,
+   "mode": "reused",
+   "chunk": 0,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 12686.334517315749
+    },
+    {
+     "library": "pure-xxhash (pair)",
+     "ns": 12692.045310318585
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 4823.347224231898
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 17936.69296987085
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh3",
+   "size": 1048576,
+   "mode": "reused",
+   "chunk": 0,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 201097.13855421683
+    },
+    {
+     "library": "pure-xxhash (pair)",
+     "ns": 200457.33066132254
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 79064.03162055324
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 285714.64285714296
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh3",
+   "size": 16,
+   "mode": "fresh",
+   "chunk": 0,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 79.6021801140994
+    },
+    {
+     "library": "pure-xxhash (pair)",
+     "ns": 72.22115051303373
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 483.7453105662132
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 476.13527710109645
+    },
+    {
+     "library": "copy only",
+     "ns": 33.24344470683337
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh3",
+   "size": 64,
+   "mode": "fresh",
+   "chunk": 0,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 105.8408809011786
+    },
+    {
+     "library": "pure-xxhash (pair)",
+     "ns": 105.3429390502831
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 476.5559498856703
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 458.17057444314304
+    },
+    {
+     "library": "copy only",
+     "ns": 31.172717909584307
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh3",
+   "size": 256,
+   "mode": "fresh",
+   "chunk": 0,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 510.16699983681445
+    },
+    {
+     "library": "pure-xxhash (pair)",
+     "ns": 512.4860491071431
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 496.6498669790345
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 477.2135416666676
+    },
+    {
+     "library": "copy only",
+     "ns": 526.6459895131408
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh3",
+   "size": 1048576,
+   "mode": "stream",
+   "chunk": 64,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 3199847.6562499995
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 3480093.3793103467
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 1528726.015151516
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh3",
+   "size": 1048576,
+   "mode": "stream",
+   "chunk": 4096,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 268158.95710455754
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 85846.67381974253
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 102771.90246406547
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh3",
+   "size": 1048576,
+   "mode": "stream",
+   "chunk": 65536,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 204021.8940936864
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 38091.2985529322
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 80114.92554043244
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh128",
+   "size": 16,
+   "mode": "reused",
+   "chunk": 0,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 89.03710670436418
+    },
+    {
+     "library": "pure-xxhash (pair)",
+     "ns": 78.28381372119249
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 132.92853688350323
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 160.63670108192846
+    },
+    {
+     "library": "xxh3-ts",
+     "ns": 515.1628787878806
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh128",
+   "size": 64,
+   "mode": "reused",
+   "chunk": 0,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 109.75291432584272
+    },
+    {
+     "library": "pure-xxhash (pair)",
+     "ns": 97.68563527600652
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 135.27751958535333
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 206.7198536706341
+    },
+    {
+     "library": "xxh3-ts",
+     "ns": 1447.9335358796288
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh128",
+   "size": 256,
+   "mode": "reused",
+   "chunk": 0,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 238.27082936356703
+    },
+    {
+     "library": "pure-xxhash (pair)",
+     "ns": 221.0723993704017
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 166.25401761968084
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 239.06487148102823
+    },
+    {
+     "library": "xxh3-ts",
+     "ns": 4559.019576671519
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh128",
+   "size": 4096,
+   "mode": "reused",
+   "chunk": 0,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 970.3854409253224
+    },
+    {
+     "library": "pure-xxhash (pair)",
+     "ns": 954.8328654903754
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 450.20551213714606
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 1289.9679890631462
+    },
+    {
+     "library": "xxh3-ts",
+     "ns": 45398.720561594135
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh128",
+   "size": 65536,
+   "mode": "reused",
+   "chunk": 0,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 12688.850907245273
+    },
+    {
+     "library": "pure-xxhash (pair)",
+     "ns": 12681.566446867855
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 4839.271328332938
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 17991.118006835735
+    },
+    {
+     "library": "xxh3-ts",
+     "ns": 696287.3263888885
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh128",
+   "size": 1048576,
+   "mode": "reused",
+   "chunk": 0,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 200939.42369477902
+    },
+    {
+     "library": "pure-xxhash (pair)",
+     "ns": 200887.9678714861
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 83715.48117154809
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 292822.8567251454
+    },
+    {
+     "library": "xxh3-ts",
+     "ns": 23378758.400000058
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh128",
+   "size": 16,
+   "mode": "fresh",
+   "chunk": 0,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 120.82567105822768
+    },
+    {
+     "library": "pure-xxhash (pair)",
+     "ns": 107.01836108639084
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 484.29019376547006
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 484.07203840501387
+    },
+    {
+     "library": "xxh3-ts",
+     "ns": 759.5870600728164
+    },
+    {
+     "library": "copy only",
+     "ns": 33.430641507164175
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh128",
+   "size": 64,
+   "mode": "fresh",
+   "chunk": 0,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 140.1150017934003
+    },
+    {
+     "library": "pure-xxhash (pair)",
+     "ns": 117.10855885604037
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 489.10481445312513
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 501.5118541399208
+    },
+    {
+     "library": "xxh3-ts",
+     "ns": 1649.2533623417755
+    },
+    {
+     "library": "copy only",
+     "ns": 31.13895938770226
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh128",
+   "size": 256,
+   "mode": "fresh",
+   "chunk": 0,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 542.348859006588
+    },
+    {
+     "library": "pure-xxhash (pair)",
+     "ns": 537.7566159426507
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 543.1073187934022
+    },
+    {
+     "library": "@node-rs/xxhash",
+     "ns": 538.4975464876013
+    },
+    {
+     "library": "xxh3-ts",
+     "ns": 4829.764660493832
+    },
+    {
+     "library": "copy only",
+     "ns": 502.7598158338692
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh128",
+   "size": 1048576,
+   "mode": "stream",
+   "chunk": 64,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 3184714.843749999
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 1478192.397058823
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh128",
+   "size": 1048576,
+   "mode": "stream",
+   "chunk": 4096,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 268157.5067024128
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 102120.23877551014
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  },
+  {
+   "algorithm": "xxh128",
+   "size": 1048576,
+   "mode": "stream",
+   "chunk": 65536,
+   "rows": [
+    {
+     "library": "pure-xxhash",
+     "ns": 205229.07991803277
+    },
+    {
+     "library": "hash-wasm",
+     "ns": 80853.8464025869
+    }
+   ],
+   "libraries": [
+    {
+     "name": "pure-xxhash",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "pure-xxhash (pair)",
+     "version": "0.1.0",
+     "kind": "JS"
+    },
+    {
+     "name": "xxhash-wasm",
+     "version": "1.1.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "hash-wasm",
+     "version": "4.13.0",
+     "kind": "WASM"
+    },
+    {
+     "name": "@node-rs/xxhash",
+     "version": "1.7.8",
+     "kind": "native"
+    },
+    {
+     "name": "xxhashjs",
+     "version": "0.2.2",
+     "kind": "JS"
+    },
+    {
+     "name": "xxh3-ts",
+     "version": "3.0.0",
+     "kind": "JS, BigInt"
+    }
+   ]
+  }
+ ]
+}

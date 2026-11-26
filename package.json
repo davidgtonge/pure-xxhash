@@ -1,0 +1,59 @@
+{
+  "name": "pure-xxhash",
+  "version": "0.1.0",
+  "description": "Fast xxHash (XXH32, XXH64, XXH3-64, XXH3-128) in pure JavaScript and TypeScript: no WASM, no native addon, streaming, zero dependencies",
+  "author": "Dave Tonge",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidgtonge/pure-xxhash.git"
+  },
+  "homepage": "https://github.com/davidgtonge/pure-xxhash#readme",
+  "bugs": "https://github.com/davidgtonge/pure-xxhash/issues",
+  "keywords": [
+    "xxhash",
+    "xxh32",
+    "xxh64",
+    "xxh3",
+    "xxh128",
+    "hash",
+    "checksum",
+    "lz4",
+    "non-cryptographic",
+    "streaming",
+    "typescript"
+  ],
+  "type": "module",
+  "sideEffects": false,
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "lint": "tsc -p tsconfig.json --noEmit && oxlint -D correctness -D suspicious src",
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test test/*.test.mjs",
+    "bench": "npm run build && node bench/isolated.mjs",
+    "bench:words": "node bench/word-read.mjs",
+    "vectors": "node tools/generate-vectors.mjs",
+    "vectors:official": "node tools/download-official-vectors.mjs",
+    "prepublishOnly": "npm run lint && npm test"
+  },
+  "devDependencies": {
+    "oxlint": "^1.95.0",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
